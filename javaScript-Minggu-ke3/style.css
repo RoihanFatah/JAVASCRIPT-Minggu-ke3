@@ -1,0 +1,459 @@
+/* @import url("@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+
+/* header */
+
+.logo img {
+    width: 270px;
+    height: 60px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.header {
+    margin: 1%;
+}
+
+.nav-left,
+.nav-right {
+    background: none;
+}
+
+.nav-left ul,
+.nav-right ul {
+    list-style: none;
+}
+
+.nav-left a,
+.nav-right a {
+    color: #0f044c;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+.nav-left a:hover {
+    background-color: #0f044c;
+    color: white;
+}
+
+.nav-right a:hover {
+    background-color: #0f044c;
+    color: white;
+}
+
+@media screen and (min-width: 560px) {
+    .header {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 1%;
+        justify-content: space-between;
+    }
+
+    .nav-left ul {
+        display: flex;
+        float: left;
+    }
+
+    .nav-right ul {
+        display: flex;
+    }
+
+    .nav-left,
+    .nav-right {
+        background: none;
+    }
+
+    .nav-left a,
+    .nav-right a {
+        color: #0f044c;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        transition: 0.3s ease;
+    }
+}
+/* end of header */
+
+/* main  */
+.main {
+    margin-top: 20px;
+}
+
+.main-left img {
+    width: 400px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.main-right {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-right h2 {
+    margin-bottom: 20px;
+}
+
+.main-right h2 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: #0f044c;
+}
+
+.main-right span {
+    background-color: #0f044c;
+    color: white;
+}
+
+@media (min-width: 560px) {
+    .main {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .main-left img {
+        width: 600px;
+    }
+
+    .main-right {
+        margin: auto;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .main-right h2 {
+        margin-bottom: 15px;
+        font-size: 2rem;
+        color: #0f044c;
+    }
+
+    .main-right span {
+        background-color: #0f044c;
+        color: white;
+    }
+}
+/* end of main  */
+
+/* product  */
+.display {
+    margin-top: 10%;
+    text-align: center;
+    color: #0f044c;
+}
+
+.image img {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.product-content {
+    text-align: center;
+    margin: 50px;
+}
+
+.description p {
+    font-size: 15px;
+}
+
+.description h4 {
+    background-color: #787a91;
+    color: white;
+}
+
+.prize h4 {
+    background-color: #0f044c;
+    color: white;
+}
+
+.description ul li {
+    list-style: none;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+@media (min-width: 560px) {
+    .product {
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .product-content {
+        height: 550px;
+    }
+
+    .image {
+        height: 200px;
+        width: 200px;
+    }
+
+    .image img {
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    .display {
+        font-size: 30px;
+    }
+
+    .description h4 {
+        background-color: #787a91;
+        color: white;
+    }
+
+    .description ul li {
+        list-style: none;
+        font-size: 15px;
+        text-align: left;
+        margin-bottom: 7px;
+    }
+
+    .prize h4 {
+        background-color: #0f044c;
+        color: white;
+    }
+}
+
+.btn-beli > button {
+    font-size: large;
+    width: 50px;
+    height: 30px;
+}
+/* end of product  */
+
+/* information section  */
+.info {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-content {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 60px;
+    display: block;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.info-isi h2 {
+    font-size: 16px;
+}
+
+.info-isi p {
+    font-size: 13px;
+}
+
+@media (min-width: 560px) {
+    .info {
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+    }
+}
+
+/* emd of information section  */
+
+/*medsos*/
+
+.medsos-icon img {
+    width: 40px;
+    margin: 10px;
+}
+
+.medsos-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.medsos-isi {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.medsos-form {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medsos-form form input {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #0f044c;
+}
+
+.medsos-form form input [type="email"] {
+    padding: 10px;
+}
+
+.medsos-form form button {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #0f044c;
+    background-color: transparent;
+    border: 2px solid #0f044c;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+}
+
+.medsos-form form button:hover {
+    color: white;
+    background-color: #0f044c;
+}
+
+@media (min-width: 560px) {
+    .medsos {
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .medsos-icon a img {
+        width: 40px;
+        margin: 10px;
+    }
+
+    .medsos-icon a img:hover {
+        width: 37px;
+        transition: 0.3s ease;
+    }
+}
+
+/*end of medsos*/
+
+/* footer  */
+footer {
+    margin-bottom: 100px;
+    background-image: linear-gradient(60deg, #787a91 0%, #0f044c 100%);
+    color: white;
+    display: flex;
+}
+
+.logo-bank img {
+    width: 80px;
+}
+
+.identitas {
+    flex: 1;
+}
+
+.sitemap {
+    flex: 1;
+}
+
+.payment {
+    flex: 1;
+}
+
+.sitemap h2,
+.identitas h2 {
+    font-size: 15px;
+}
+
+.identitas p {
+    font-size: 12px;
+}
+
+.sitemap li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.sitemap li a:hover {
+    background: white;
+    color: #0f044c;
+    padding: 5px;
+    transition: 0.2s ease;
+}
+
+.sitemap li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.bank p {
+    font-size: 10px;
+}
+
+.bank h3 {
+    font-size: 13px;
+}
+
+.bank {
+    padding-bottom: 15px;
+}
+
+@media (min-width: 560px) {
+    footer {
+        width: 100%;
+        margin: auto;
+        padding-top: 10px;
+        background-image: linear-gradient(60deg, #0f044c 0%, #787a91 100%);
+        color: white;
+        display: flex;
+    }
+
+    .logo-bank img {
+        width: 80px;
+    }
+
+    .logo-bank img:hover {
+        /* width: 90px; */
+        background: white;
+        padding: 5px;
+        transition: 0.2s ease;
+    }
+
+    .sitemap h2,
+    .identitas h2 {
+        font-size: 20px;
+    }
+
+    .identitas p {
+        font-size: 12px;
+    }
+
+    .sitemap li a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+/* end of footer  */

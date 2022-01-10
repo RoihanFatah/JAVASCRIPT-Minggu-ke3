@@ -1,0 +1,24 @@
+[{
+
+    "idmenu" : 8,
+    "idkategori" : 17,
+    "menu" : "Beef Burger",
+    "harga" : 25000,
+    "warna" : ["merah", "kuning", "hijau"],
+    "stok" : true,
+    "keterangan" : null
+
+},
+{
+
+    "idmenu" : 9,
+    "idkategori" : 17,
+    "menu" : "Chicken Wings",
+    "harga" : 15000,
+    "warna" : ["merah", "kuning"],
+    "stok" : false,
+    "keterangan" : null
+
+}
+
+]
